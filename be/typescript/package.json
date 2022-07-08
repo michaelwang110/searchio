@@ -1,0 +1,27 @@
+{
+  "name": "interview-init-be-typescript",
+  "version": "1.0.0",
+  "description": "Starting place for Search.io FE interview.",
+  "main": "index.js",
+  "repository": "git@github.com:wwalser/interview-init.git",
+  "author": "Wesley Walser <wwalser@search.io>",
+  "license": "NONE",
+  "private": true,
+  "scripts": {
+    "watch": "tsc -w",
+    "lint": "eslint . --ext .ts",
+    "test": "jest",
+    "testbb": "jest fetcher-black-box",
+    "index": "tsc && node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "eslint": "^8.9.0",
+    "jest": "^27.5.1",
+    "prettier": "^2.5.1",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.3.4"
+  }
+}
